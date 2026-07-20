@@ -268,9 +268,7 @@ def do_retrieve(question: str) -> list[dict]:
     ]
 
 
-# ---------------------------------------------------------------------------
-# Sidebar — config + document management
-# ---------------------------------------------------------------------------
+
 with st.sidebar:
     st.markdown("### ⚙️ Configuration")
 
@@ -352,9 +350,7 @@ with st.sidebar:
         st.session_state["messages"] = []
         st.rerun()
 
-# ---------------------------------------------------------------------------
-# Main — chat interface
-# ---------------------------------------------------------------------------
+
 st.markdown(
     """
     <div class="hero">
